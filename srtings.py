@@ -88,3 +88,8 @@ Hello,
 \tmy name is {my_name}.
 \ttoday we are in {today:%Y-%m-%d.}
         ''')
+
+
+# asci code
+print(ord('a')) # 97
+print(chr(97)) # a
