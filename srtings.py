@@ -1,3 +1,4 @@
+# string funcs
 string = 'Hello, world.'
 my_list = ['Hello', 'world']
 
@@ -74,3 +75,16 @@ print(is_instance) # True
 
 instance_type = type(string)
 print(instance_type) # <class 'str'>
+
+
+# formatting strings (f string)
+print('\nf strings:\n')
+
+import datetime
+my_name = 'Alireza'
+today = datetime.datetime.today()
+print(f'''
+Hello,
+\tmy name is {my_name}.
+\ttoday we are in {today:%Y-%m-%d.}
+        ''')
