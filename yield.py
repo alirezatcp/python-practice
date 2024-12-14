@@ -31,11 +31,11 @@ def guess_the_name(name:str, n:int):
         else:
             yield 'Oh, you cant guess the name :('
 
-# game = guess_the_name('alireza', 5)
-# print(game)
+game = guess_the_name('alireza', 5)
+print(game)
 
-# for step in game:
-#     print(step)
+for step in game:
+    print(step)
     
 
 def create_name_list(n):
