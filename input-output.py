@@ -7,3 +7,6 @@ print(int_list) # [1, 2, 3, 4, 5]
 print('hi...', end='')
 print('continiue')
 
+
+print('Hello', 'I am Alireza', sep='\n') # separates each section with what we gave it
+# output: Hello\nI am Alireza
