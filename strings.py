@@ -93,3 +93,6 @@ Hello,
 # asci code
 print(ord('a')) # 97
 print(chr(97)) # a
+
+string = "print('This is a python code: ', 5**2)"
+exec_code = eval(string) # convert text to python code
