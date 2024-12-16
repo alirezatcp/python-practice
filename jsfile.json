@@ -1,0 +1,9 @@
+{
+"object": "dict", 
+"array": ["list", "tuple"], 
+"str": "str", 
+"Number": ["int", "float"], 
+"true": true, 
+"false": false, 
+"null": null
+}
