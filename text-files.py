@@ -1,7 +1,3 @@
-import os 
-
-print(os.getcwd()) # get this file directory path.
-
 # create new file with name text_file
 text_file = open(file='./text_file', mode='w')
 
